@@ -111,6 +111,10 @@ jobs:
           rm -rf main/tmp/Payload/YouTube.app/PlugIns/*
           cp -R main/Extensions/*.appex main/tmp/Payload/YouTube.app/PlugIns
           echo -e "==> \033[1mYouTube v${{ inputs.youtube_version }} unpacked! \033[0m"
+          mkdir PKG_SOURCE
+          cp -Rf CercubePlusExtra/usr CercubePlusExtra/etc CercubePlusExtra/DEBIAN PKG_SOURCE
+          dpkg-deb --build PKG_SOURCE com.arichorn.cercubeplusextra.deb
+          echo -e "==> \033[1mDeb has been built! \033[0m"
 
         env:
           THEOS: ${{ github.workspace }}/theos
