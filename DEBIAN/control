@@ -1,0 +1,7 @@
+Package: com.arichorn.cercubeplusextra
+Version: v18.17.2
+Section: Tweak
+Priority: optional
+Architecture: arm64
+Maintainer: arichorn
+Description: CercubePlus Tweak with everything you need.
