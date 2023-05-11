@@ -162,5 +162,5 @@ jobs:
         with:
           tag_name: v${{ env.YOUTUBE_VERSION }}-${{ env.CERCUBE_VERSION }}-(${{ github.run_number }})
           name: v${{ env.YOUTUBE_VERSION }}-${{ env.CERCUBE_VERSION }}-(${{ github.run_number }})
-          files: main/packages/*.ipa main/packages/com.arichorn.cercubeplusextra.deb
+          files: main/packages/*.deb
           draft: ${{ env.DRAFT }}
