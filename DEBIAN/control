@@ -1,7 +1,8 @@
 Package: com.arichorn.cercubeplusextra
+Name: CercubePlusExtra
 Version: 18.17.2
-Section: Tweak
-Priority: optional
-Architecture: arm64
+Section: Tweaks
+Architecture: iphoneos-arm
+Description: CercubePlus Tweak with some useful features.
 Maintainer: arichorn
-Description: CercubePlus Tweak with everything you need.
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 14.0)
