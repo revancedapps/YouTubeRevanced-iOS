@@ -111,7 +111,7 @@ jobs:
           rm -rf main/tmp/Payload/YouTube.app/PlugIns/*
           cp -R main/Extensions/*.appex main/tmp/Payload/YouTube.app/PlugIns
           echo -e "==> \033[1mYouTube v${{ inputs.youtube_version }} unpacked! \033[0m"
-          dpkg-deb --build com.arichorn.cercubeplusextra.deb
+          dpkg-deb --build CercubePlusExtra com.arichorn.cercubeplusextra.deb
           echo -e "==> \033[1mDeb has been built! \033[0m"
 
         env:
