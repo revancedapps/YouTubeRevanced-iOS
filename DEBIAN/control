@@ -1,6 +1,6 @@
-Package: com.arichorn.cercubeplusextra
-Name: CercubePlusExtra
-Version: 18.17.2
+Package: com.arichorn.youtuberebornplus
+Name: YouTubeRebornPlus
+Version: 18.14.1
 Section: Tweaks
 Architecture: iphoneos-arm
 Description: CercubePlus Tweak with some useful features.
