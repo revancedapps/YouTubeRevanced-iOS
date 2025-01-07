@@ -363,3 +363,12 @@ or [uYouPlus/Building - Wiki](https://github.com/qnblackcat/uYouPlus/wiki/Buildi
 ## Balackburn's YTLitePlus
 AltStore/SideStore: https://balackburn.github.io/YTLitePlus/
 Github: https://github.com/ytliteplus/ytliteplus/
+
+
+
+**Disclaimer:**  
+This project, including all associated repositories, code, and materials, is an independent fork of the open-source ReVanced project. It is not affiliated with, endorsed by, or connected to the official ReVanced project or its trademark owner. The name "ReVanced" is used solely to describe the nature of the software and does not imply any official association.  
+
+All trademarks, service marks, and registered trademarks mentioned in this project are the property of their respective owners. This project is developed and maintained by an independent community and is not responsible for any actions taken by the official ReVanced project or its representatives.  
+
+For more information about the official ReVanced project, please visit their website: [https://revanced.app](https://revanced.app).
